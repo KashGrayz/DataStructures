@@ -4,7 +4,7 @@
 
 from implementation import months_in_year
 from implementation import fav_fruits
-
+from implementation import user_profile
 # march = months_in_year[2]
 # print(f"Pi day is the 14th of {march}")
 
@@ -13,7 +13,20 @@ from implementation import fav_fruits
 # Add two of your favorite fruits and two of your favorite vegetables to the collection.
 # Iterate over the collection and print each one to the console. 
 
-fav_fruits.update(['Coconut','Passionfruit','Tomato','Cucumber']) #add veggies to set
+# fav_fruits.update(['Coconut','Passionfruit','Tomato','Cucumber']) #add veggies to set
 
-for pulp in fav_fruits:  #iterate               
-    print(pulp) 
+# for pulp in fav_fruits:  #iterate               
+#     print(pulp) 
+
+
+# Store information about a user profile. Use literal string interpolation to print the user’s profile information to the console. 
+# The profile should consist of the following information:
+# First Name
+# Last Name
+# Email Address
+# Phone Number
+
+for key, value in user_profile.items():
+    print(f'My first name is {value}')
+
+

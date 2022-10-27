@@ -13,3 +13,20 @@ months_in_year = ('January', 'Febuary', 'March', 'April', 'May', 'June', 'July',
 
 fav_fruits = {'Mango', 'Pineapple', 'Guava', 'Kiwi', 'Blueberry'}
 
+# Store information about a user profile. Use literal string interpolation to print the user’s profile information to the console. 
+# The profile should consist of the following information:
+# First Name
+# Last Name
+# Email Address
+# Phone Number
+
+#Personal info dictionary
+
+user_profile = {
+    "first_name": "Al",
+    "last_name": "Simmons",
+    "email_addy": "iamhellspawn@hell.com",
+    "phone_number": "555-001-0666"
+}
+
+
