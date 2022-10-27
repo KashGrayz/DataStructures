@@ -26,7 +26,7 @@ from implementation import user_profile
 # Email Address
 # Phone Number
 
-for key, value in user_profile.items():
-    print(f'My first name is {value}')
-
+print(f'''My name is {user_profile["first_name"]} {user_profile["last_name"]}, 
+you can contact me by {user_profile["email_addy"]} 
+or by phone {user_profile["phone_number"]}.''')
 
