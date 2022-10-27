@@ -13,8 +13,7 @@ from implementation import fav_fruits
 # Add two of your favorite fruits and two of your favorite vegetables to the collection.
 # Iterate over the collection and print each one to the console. 
 
-for seeds in fav_fruits:
-    print(seeds)
-fav_fruits.update('Coconut','Passionfruit','Tomato','Cucumber')
-for pulp in fav_fruits:
-    print(pulp)
+fav_fruits.update(['Coconut','Passionfruit','Tomato','Cucumber']) #add veggies to set
+
+for pulp in fav_fruits:  #iterate               
+    print(pulp) 
